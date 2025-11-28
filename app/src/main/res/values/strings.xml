@@ -13,8 +13,9 @@
 
     <!-- ScoreActivity -->
     <string name="resultado_final">Resultado Final</string>
-    <string name="local_gana">¡Gana el equipo Local!</string>
-    <string name="visitante_gana">¡Gana el equipo Visitante!</string>
-    <string name="empate">¡Empate!</string>
+    <string name="local_gana">Gana el equipo Local</string>
+    <string name="visitante_gana">Gana el equipo Visitante</string>
+    <string name="empate">Empate</string>
     <string name="formato">%1$d - %2$d</string>
+    <string name="marcador_de_baloncesto">Marcador de Baloncesto</string>
 </resources>

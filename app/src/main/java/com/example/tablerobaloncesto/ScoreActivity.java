@@ -20,7 +20,7 @@ public class ScoreActivity extends AppCompatActivity {
         int puntuacionLocal = getIntent().getIntExtra(MainActivity.EXTRA_PUNTUACION_LOCAL, 0);
         int puntuacionVisitante = getIntent().getIntExtra(MainActivity.EXTRA_PUNTUACION_VISITANTE, 0);
 
-        // Mostrar el marcador final usando el formato del strings.xml
+        // Mostrar el marcador final
         String marcadorFinal = getString(R.string.formato, puntuacionLocal, puntuacionVisitante);
         binding.MarcadorFinal.setText(marcadorFinal);
 

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="btn_border_orange" />
+    <drawable name="btn_border_blue" />
+    <drawable name="equipo_local" />
+    <drawable name="equipo_visitante" />
+</resources>

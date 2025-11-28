@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">TableroBaloncesto</string>
+
+    <!-- MainActivity -->
+    <string name="equipo_local">Local</string>
+    <string name="equipo_visitante">Visitante</string>
+    <string name="puntuacion_cero">0</string>
+    <string name="mas1">+1</string>
+    <string name="mas2">+2</string>
+    <string name="menos1">-1</string>
+    <string name="reiniciar">Reset</string>
+    <string name="resultado">Ver Resultados</string>
+
+    <!-- ScoreActivity -->
+    <string name="resultado_final">Resultado Final</string>
+    <string name="local_gana">¡Gana el equipo Local!</string>
+    <string name="visitante_gana">¡Gana el equipo Visitante!</string>
+    <string name="empate">¡Empate!</string>
+    <string name="formato">%1$d - %2$d</string>
+</resources>

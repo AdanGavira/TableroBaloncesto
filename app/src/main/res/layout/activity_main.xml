@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <!-- Equipo Local -->
+        <TextView
+            android:id="@+id/EquipoLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/equipo_local"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/EquipoVisitante"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            android:layout_marginTop="32dp"/>
+
+        <TextView
+            android:id="@+id/PuntuacionLocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/puntuacion_cero"
+            android:textSize="64sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/EquipoLocal"
+            app:layout_constraintStart_toStartOf="@id/EquipoLocal"
+            app:layout_constraintEnd_toEndOf="@id/EquipoLocal"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Botones Local -->
+        <LinearLayout
+            android:id="@+id/layoutLocalButtons"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/PuntuacionLocal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/EquipoVisitante"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/btnLocalMas1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mas1"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/btnLocalMas2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mas2"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/btnLocalMenos1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menos1"
+                android:layout_margin="4dp"/>
+        </LinearLayout>
+
+        <!-- Equipo Visitante -->
+        <TextView
+            android:id="@+id/EquipoVisitante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/equipo_visitante"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="@id/EquipoLocal"
+            app:layout_constraintStart_toEndOf="@id/EquipoLocal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_chainStyle="spread"/>
+
+        <TextView
+            android:id="@+id/PuntuacionVisitante"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/puntuacion_cero"
+            android:textSize="64sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/EquipoVisitante"
+            app:layout_constraintStart_toStartOf="@id/EquipoVisitante"
+            app:layout_constraintEnd_toEndOf="@id/EquipoVisitante"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Botones Visitante -->
+        <LinearLayout
+            android:id="@+id/layoutVisitorButtons"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            app:layout_constraintTop_toBottomOf="@id/PuntuacionVisitante"
+            app:layout_constraintStart_toEndOf="@id/layoutLocalButtons"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp">
+
+            <Button
+                android:id="@+id/btnVisitanteMas1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mas1"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/btnVisitanteMas2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mas2"
+                android:layout_margin="4dp"/>
+
+            <Button
+                android:id="@+id/btnVisitanteMenos1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/menos1"
+                android:layout_margin="4dp"/>
+        </LinearLayout>
+
+        <!-- Botones de Control -->
+        <Button
+            android:id="@+id/btnReiniciar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reiniciar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:id="@+id/btnVerResultados"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/resultado"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="32dp"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

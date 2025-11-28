@@ -26,12 +26,12 @@ Intents - Navegación entre las actividades
 
 ## Diseño de interfaces 
 
-🏀MainActivity
+- 🏀MainActivity
 Podremos encontrarnos con un diseño simétrico para ambos equipos, unos botones de acción para la puntuación de cada equipo, con bordes, luego tendremos unos marcadores que irán reflejando el resultado de cada puntuación e irá sumando cada vez que encesten y por último unos colores temáticos como son el azul para el equipo local y el naranja para el equipo visitante. 
 
 <img width="1140" height="1059" alt="image" src="https://github.com/user-attachments/assets/eda6b6bf-f427-4bea-bb07-b9b4ea833e10" />
 
-📊ScoreActivity
+- 📊ScoreActivity
 En esta ventana podremos ver una presentación del resultado final del partido. También un mensaje del equipo ganador o de si ha habido un empate.
 
 <img width="1131" height="1058" alt="image" src="https://github.com/user-attachments/assets/8142a33f-ceae-45b9-9f02-71216bdae016" />

@@ -31,6 +31,7 @@ Intents - Navegación entre las actividades
 
 <img width="1140" height="1059" alt="image" src="https://github.com/user-attachments/assets/eda6b6bf-f427-4bea-bb07-b9b4ea833e10" />
 
+
 📊ScoreActivity
 - En esta ventana podremos ver una presentación del resultado final del partido. También un mensaje del equipo ganador o de si ha habido un empate.
 
@@ -40,19 +41,24 @@ Intents - Navegación entre las actividades
 
 <img width="1128" height="1072" alt="image" src="https://github.com/user-attachments/assets/803c1848-618f-4478-8331-5ebff450bea9" />
 
+
 ## 💻Implementaciones
 
 Hemos implementado el dataBinding en el build.gradle
 
 <img width="288" height="105" alt="image" src="https://github.com/user-attachments/assets/3aeb2eca-5324-4a10-879f-b63d21f99815" />
 
+
 Y también hemos implementado una navegación entre ventanas con un Intent. 
 
 <img width="755" height="246" alt="image" src="https://github.com/user-attachments/assets/d3a46b71-06ef-4663-8dd4-02483bc6979c" />
+
 Esto es en el MainActivity
 
 <img width="1097" height="114" alt="image" src="https://github.com/user-attachments/assets/461d51c9-2396-4dc6-b1b5-4a623ad168f3" />
+
 Esto en el ScoreActivity
+
 
     - Diseño responsivo con ConstraintLayout y LinearLayout
     - Gestión de puntuación (+1, +2, -1)

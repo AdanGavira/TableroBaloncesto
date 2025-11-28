@@ -1,15 +1,15 @@
-# TableroBaloncesto
+# 📱TableroBaloncesto
 
 TableroBaloncesto es una aplicación sobre un marcador de un partido de baloncesto en tiempo real. Tiene una interfaz para controlar la puntuación de los equipos y para visualizar los resultados. 
 
-## Características
+## ✨Características
 - Marcador en tiempo real
 - Botones para la puntuación
 - Patalla de resultados
 - Interfaz con un diseño
 - Navegación entre las dos actividades (MainActivity y ScoreActivity)
 
-## Aplicación 
+## 🎮Aplicación 
 Tiene dos actividades: 
     - MainActivity: Pantalla principal del marcador 
     - ScoreActivity: Pantalla de resultados
@@ -26,12 +26,12 @@ Intents - Navegación entre las actividades
 
 ## Diseño de interfaces 
 
-MainActivity
+🏀MainActivity
 Podremos encontrarnos con un diseño simétrico para ambos equipos, unos botones de acción para la puntuación de cada equipo, con bordes, luego tendremos unos marcadores que irán reflejando el resultado de cada puntuación e irá sumando cada vez que encesten y por último unos colores temáticos como son el azul para el equipo local y el naranja para el equipo visitante. 
 
 <img width="1140" height="1059" alt="image" src="https://github.com/user-attachments/assets/eda6b6bf-f427-4bea-bb07-b9b4ea833e10" />
 
-ScoreActivity
+📊ScoreActivity
 En esta ventana podremos ver una presentación del resultado final del partido. También un mensaje del equipo ganador o de si ha habido un empate.
 
 <img width="1131" height="1058" alt="image" src="https://github.com/user-attachments/assets/8142a33f-ceae-45b9-9f02-71216bdae016" />
@@ -40,7 +40,7 @@ En esta ventana podremos ver una presentación del resultado final del partido. 
 
 <img width="1128" height="1072" alt="image" src="https://github.com/user-attachments/assets/803c1848-618f-4478-8331-5ebff450bea9" />
 
-## Implementaciones
+## 💻Implementaciones
 
 Hemos implementado el dataBinding en el build.gradle
 
@@ -63,7 +63,7 @@ Esto en el ScoreActivity
     - Constantes para claves de Intent
     - Código comentado 
 
-## Mejoras Futuras
+## 🚀Mejoras Futuras
 
     - Agregar un botón de triples (+3)
     - Agregar cronómetro para contabilizar el tiempo de juego
@@ -71,7 +71,7 @@ Esto en el ScoreActivity
     - Efectos de sonido
     - Exportar los resultados y guardarlas en una base de datos
 
- ## Desarrollo 
+ ## 👨‍💻Desarrollo 
 
  - Autor: Adán Gavira Palacios 
  - Curso: 2º DAM, 1º Trimestre PMDM
